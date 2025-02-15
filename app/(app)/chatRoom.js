@@ -83,8 +83,8 @@ const ChatRoom = () => {
               <View style={{flex: 1}}>
                 <MessageList messages={messages} currentUser = {user}/>
               </View>
-              <View style={{marginBottom: hp(1.7), paddingTop: 8}}>
-                    <View style={{flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 10, paddingHorizontal: 20, borderRadius: 20, borderWidth: 1, borderColor: COLORS.darkGray,  backgroundColor: COLORS.gray, marginHorizontal: 12}}>
+              <View style={{paddingTop: 8, backgroundColor: '#fff'}}>
+                    <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 10, paddingHorizontal: 20, borderRadius: 20, borderWidth: 1, borderColor: COLORS.darkGray,  backgroundColor: COLORS.gray, marginHorizontal: 12}}>
                       <TextInput
                         ref={inputRef}
                         onChangeText={value => textRef.current = value}

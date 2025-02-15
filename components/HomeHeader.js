@@ -32,7 +32,7 @@ const HomeHeader = () => {
     }
 
   return (
-    <View style={{paddingTop: ios? top : top + 10, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: COLORS.accent, paddingBottom: 15, paddingHorizontal: 20, borderRadius: 20 }}>
+    <View style={{paddingTop: ios? top : top + 10, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: COLORS.accent, paddingBottom: 15, paddingHorizontal: 20, borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
       <View>
         <Text style={styles.text}>Чаты</Text>
       </View>
